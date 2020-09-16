@@ -13,7 +13,11 @@ title: "Introduction"
 
 Similar to other services like Google, Facebook, and Github, the Profile-as-a-service (PAAS) allows a tell-me-once approach for setting common profile information across all Open Accessible Digital Workspace applications. Profile-as-a-service also leverages the GCaccount sign-on platform.
 
-PAAS can currently store a user's name, email, avatar, title, contact information, as well as organizational information.  We built this service around the premise that the user is the authoratative source on their own information.  Profile-as-a-serivce can still receive information from other sources.  Any external information sources requires  the user to validate any changes proposed by those sources (GCHR, PeopleSoft, etc.) before they take effect.
+PAAS can currently store a user's name, email, avatar, title, contact information, as well as organizational information.  We built this service around the premise that the user is the authoratative source on their own information.  Profile-as-a-serivce can still receive information from other sources.  Any external information source requires  the user to validate any changes proposed by those sources (GCHR, PeopleSoft, etc.) before they take effect.
+
+## Service endpoint
+
+`https://paas.gccollab.ca/`
 
 ## Tech stack
 

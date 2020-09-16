@@ -13,11 +13,11 @@ title: "Retrieving Data"
 
 Queries do not require authentication of the client through the means of an access token, however the type of data returned may be filtered.  For example if the "address" field requires a certain "user role" to view then if a querying user does not have that role `null` will be returned for that field.
 
-For more information on how to utilize the graphQL query function graphl.org provides excellent [tutorails](https://graphql.org/learn/queries/).
+For more information on how to utilize the graphQL query function graphl.org provides excellent [tutorials](https://graphql.org/learn/queries/).
 
 ### Query that would return all available information of users without search criteria
 
-For brevity `...all object fields available` has been used to reduce repetivitiy.
+For brevity `...all object fields available` has been used to reduce repetition.
 
 ```json
     profiles{
@@ -219,7 +219,7 @@ Available Arguments:
 * `gcIDApprover` *exact match* (gcID of profile object)
 * `gcIDSubmitter` *exact match* (gcID of profile object)
 * `status` *enum* (enum of `Pending`, `Approved`, `Denied`)
-* `changeType` *enum* (enum of `Informational` or `Memebership`)
+* `changeType` *enum* (enum of `Informational` or `Membership`)
 
 Example using all available Arguments
 

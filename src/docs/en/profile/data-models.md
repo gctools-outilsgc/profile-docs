@@ -25,7 +25,8 @@ title: "Data Models"
 * `team` *team object the user is associated to.  This object is used to find the user's current supervisor and organization* (team object)
 * `ownerOfTeams` *array of team objects that have this user as its owner. This object is used to find the user's employees* (team object array)
 * `outstandingApprovals` *array of approval objects that require the user's approval or rejection* (approval object array)
-* `submittedApprovals` *array of approval objects that have been submitted by the user* (approval ojbect array)
+* `submittedApprovals` *array of approval objects that have been submitted by the user* (approval object array)
+* `isAdmin` - *flag to check if user is an admin* (boolean)
 
 ### Address
 
@@ -38,13 +39,16 @@ title: "Data Models"
 
 ### Team
 
-* `id` *unique organizaitonal tier object identifier* (int)
+* `id` *unique organizational tier object identifier* (int)
 * `nameEn` *English name of team* (string)
 * `nameFr` *French name of team* (string)
 * `descriptionEn` *English description of team* (string)
+* `descriptionFr` *French description of team* (string)
+* `colour` *custom colour for team* (string)
+* `avatar` *optional avatar for team* (string)
 * `organization` *top level organization object* (organization object)
 * `owner` *profile object of the user who is listed as the owner of this team* (user object)
-* `OrgMembers` *array of user objects who are associated with this org tier* (user object array)
+* `members` *array of user objects who are associated with this org tier* (user object array)
 
 ### Organization
 
@@ -54,6 +58,7 @@ title: "Data Models"
 * `acronymEn` *English acronym of the organization* (string)
 * `acronymFr` *French acronym of the organization* (string)
 * `teams` *array of teams that are associated with this organization* (team array)
+* `orgType` *type of organisation (`Federal`, `Provincial`, `Municipal`, `University`, `College`, `Other`)* (enum)
 
 ### Approval
 
@@ -63,8 +68,8 @@ title: "Data Models"
 * `gcIDApprover` *profile object of the user who is listed as being able to approve or deny this request* (profile object)
 * `gcIDSubmitter` *profile object of the user who has submitted the approval request* (profile object)
 * `requestedChange` *requested change object that contains the requested changes for approval* (requestedChange object)
-* `createdOn` *time stamp in unix time of creation date of approval* (string)
-* `actionedOn` *time stamp of the last modificaton of the approval in unix time* (string)
+* `createdOn` *timestamp in unix time of creation date of approval* (string)
+* `actionedOn` *timestamp of the last modification of the approval in unix time* (string)
 * `deniedComment` *message to submitter if the request is denied by the approver* (string)
 * `status` *enum that can be either `Pending`, `Approved`, or `Denied` to describe the state of the approval* (enum)
 * `changeType` *enum that can be either `Membership` or `Informational` to describe the nature of the change being requested* (enum)

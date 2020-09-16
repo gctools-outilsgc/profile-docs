@@ -71,7 +71,7 @@ Available arguments to send in a mutation:
 * `nameEn` *English name of team* (string)
 * `nameFr` *French name of team* (string)
 * `descriptionEn` *English description of team* (string)
-* `descrtiptionFr` *French description of team* (string)
+* `descriptionFr` *French description of team* (string)
 * `organization` *organization object unique identifier* (organization object)
 * `owner` *unique user who owns the team. Can be identified by email or by gcID* (profile object)
 
@@ -104,7 +104,7 @@ Available arguments to send in a mutation:
   * `nameEn` *English name of team* (string)
   * `nameFr` *French name of team* (string)
   * `descriptionEn` *English description of team* (string)
-  * `descrtiptionFr` *French description of team* (string)
+  * `descriptionFr` *French description of team* (string)
   * `organization` *organization object unique identifier* (organization object)
   * `owner` *unique user who owns the team. Can be identified by email or by gcID* (profile object)
 
@@ -152,7 +152,7 @@ Available arguments to send in a mutation:
 * `id` *unique identifier of the approval to modify* (int)
 * `data` *object that contains changes to apply*
   * `status` *enum of either `Pending`, `Approved`, or `Denied` (enum)
-  * `deniedComment` *reaseon for setting status to `Denied` (string)
+  * `deniedComment` *reason for setting status to `Denied` (string)
 
 Example mutation to modify Approval:
 

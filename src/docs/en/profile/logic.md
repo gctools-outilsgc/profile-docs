@@ -19,7 +19,7 @@ There is no external validation of "supervisory" status.  Instead it is assumed 
 
 #### Teams
 
-Teams are how users are grouped in reporting relationships, and allow for the dynamic creation and dispaly of reporting relationship graphs.
+Teams are how users are grouped in reporting relationships, and allow for the dynamic creation and display of reporting relationship graphs.
 It is important to note that the reporting relationship with teams will follow the user from team to team or organization to organization unless explicitly transferred to another user.
 
 **You can:**
@@ -57,7 +57,7 @@ Everyone is a user, even if they have supervisory status, and is responsible for
 
 #### Organization
 
-By default, everyone is a part of the "Global Organization" when a profile is created.  This default organizaiton contains everyone who is not directly associated to a specific organization.
+By default, everyone is a part of the "Global Organization" when a profile is created.  This default organization contains everyone who is not directly associated to a specific organization.
 
 **You can:**
 * Join an organization directly without identifying a supervisor.  This will list you as in the organization's Default Team.
