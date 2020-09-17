@@ -9,7 +9,7 @@ title: "Introduction"
 <title> Profile - Introduction </title>
 </helmet>
 
-## Introduction
+# Introduction
 
 Similar to other services like Google, Facebook, and Github, the Profile-as-a-service (PAAS) allows a tell-me-once approach for setting common profile information across all Open Accessible Digital Workspace applications. Profile-as-a-service also leverages the GCaccount sign-on platform.
 
@@ -17,7 +17,7 @@ PAAS can currently store a user's name, email, avatar, title, contact informatio
 
 ## Service endpoint
 
-`https://paas.gccollab.ca/`
+The endpoint can be accessed via `paas.gccollab.ca`
 
 ## Tech stack
 
