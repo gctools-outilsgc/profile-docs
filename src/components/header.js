@@ -10,7 +10,7 @@ import Search from './search';
 import LanguageSwitcher from './LanguageSwitcher';
 import { I18n } from 'react-i18next';
 import fip from '../img/sig-alt-en.png';
-import logo from '../img/OADW_placeholder_logo.png';
+import logo from '../img/docs-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -62,7 +62,7 @@ const Header = ({ path }) => {
           <div>
             <Navbar color="white" expand className="main-nav" style={{ paddingBottom: '0', paddingRight: '0' }} aria-label={t('MainNavigation')} role="navigation">
               <Link to="/#!" className="text-dark logo">
-                <img src={logo} alt="Logo" className="float-left" style={{ width: '30px', margin: '5px' }} />
+                <img src={logo} alt="" className="float-left" style={{ width: '30px', margin: '5px' }} />
                 <span className="h2 d-none d-md-block float-left font-weight-normal">
                   {' '}
                   {'Quantum'}{' '}
