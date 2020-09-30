@@ -1,6 +1,6 @@
 ---
 path: "/profile/quick-start"
-subnav: "1/Profile/Profil/2"
+subnav: "1/Profile/Profil/1"
 lang: "fr"
 title: "Quick Start (Translate)"
 ---
