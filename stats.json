@@ -1,60 +1,60 @@
 {
   "assetsByChunkName": {
     "path---architecture-system-design": [
-      "path---architecture-system-design-9036eb98a3f41c32cc14.js",
-      "path---architecture-system-design-9036eb98a3f41c32cc14.js.map"
+      "path---architecture-system-design-8d54fcf908081e380f97.js",
+      "path---architecture-system-design-8d54fcf908081e380f97.js.map"
     ],
     "path---profile-mutations": [
-      "path---profile-mutations-6bb9c37d538bc8c51490.js",
-      "path---profile-mutations-6bb9c37d538bc8c51490.js.map"
+      "path---profile-mutations-ccc32768d0c7f4edb731.js",
+      "path---profile-mutations-ccc32768d0c7f4edb731.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-cfe6f4af0699c098f94e.js",
-      "component---src-pages-index-js-cfe6f4af0699c098f94e.js.map"
+      "component---src-pages-index-js-c327b42cfef0683be3e9.js",
+      "component---src-pages-index-js-c327b42cfef0683be3e9.js.map"
     ],
     "path---profile-introduction": [
-      "path---profile-introduction-83c0397575f0294883e3.js",
-      "path---profile-introduction-83c0397575f0294883e3.js.map"
+      "path---profile-introduction-b6dee901ee134de0f97d.js",
+      "path---profile-introduction-b6dee901ee134de0f97d.js.map"
     ],
     "path---profile-queries": [
-      "path---profile-queries-d139d337f490f484d30a.js",
-      "path---profile-queries-d139d337f490f484d30a.js.map"
+      "path---profile-queries-a91c3a2da1f0b76b440b.js",
+      "path---profile-queries-a91c3a2da1f0b76b440b.js.map"
     ],
     "path---notifications-introduction": [
-      "path---notifications-introduction-bd1a0b1b0795018268da.js",
-      "path---notifications-introduction-bd1a0b1b0795018268da.js.map"
+      "path---notifications-introduction-c65705c4e0ba175c2ff5.js",
+      "path---notifications-introduction-c65705c4e0ba175c2ff5.js.map"
     ],
     "path---architecture-introduction": [
-      "path---architecture-introduction-d50a905587b4a7b02082.js",
-      "path---architecture-introduction-d50a905587b4a7b02082.js.map"
+      "path---architecture-introduction-27527200c813e3d45638.js",
+      "path---architecture-introduction-27527200c813e3d45638.js.map"
     ],
     "path---profile-logic": [
-      "path---profile-logic-a3d9209c4e58f8849f5b.js",
-      "path---profile-logic-a3d9209c4e58f8849f5b.js.map"
+      "path---profile-logic-9886e63453754e6caaf4.js",
+      "path---profile-logic-9886e63453754e6caaf4.js.map"
     ],
     "path---notifications-mutations": [
-      "path---notifications-mutations-4c1fd4bee7b02b841a48.js",
-      "path---notifications-mutations-4c1fd4bee7b02b841a48.js.map"
+      "path---notifications-mutations-466d8168e138e2bbebce.js",
+      "path---notifications-mutations-466d8168e138e2bbebce.js.map"
     ],
     "path---architecture-integrations": [
-      "path---architecture-integrations-de5c9f66dbc4619a6215.js",
-      "path---architecture-integrations-de5c9f66dbc4619a6215.js.map"
+      "path---architecture-integrations-285b0c8c944580c104bb.js",
+      "path---architecture-integrations-285b0c8c944580c104bb.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---notifications-data-models": [
-      "path---notifications-data-models-dd4efe2fb9fcdcaa1ca9.js",
-      "path---notifications-data-models-dd4efe2fb9fcdcaa1ca9.js.map"
+      "path---notifications-data-models-69a2ecc5c82c339b349b.js",
+      "path---notifications-data-models-69a2ecc5c82c339b349b.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-8b6116c00e4ae5cad53a.js",
-      "component---src-pages-404-js-8b6116c00e4ae5cad53a.js.map"
+      "component---src-pages-404-js-4dd7f3b3da29f120532e.js",
+      "component---src-pages-404-js-4dd7f3b3da29f120532e.js.map"
     ],
     "path---profile-avatars": [
-      "path---profile-avatars-1fffb31c790c063a2aeb.js",
-      "path---profile-avatars-1fffb31c790c063a2aeb.js.map"
+      "path---profile-avatars-53af899b698e3dfbbd6c.js",
+      "path---profile-avatars-53af899b698e3dfbbd6c.js.map"
     ],
     "commons": [
       "commons-e4a00fb0fdf3bbc6c6e1.js",
@@ -67,34 +67,42 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---overview-introduction": [
-      "path---overview-introduction-0bd87d62250c6a51df5f.js",
-      "path---overview-introduction-0bd87d62250c6a51df5f.js.map"
+      "path---overview-introduction-7fd399de8b3fe1bdf7a6.js",
+      "path---overview-introduction-7fd399de8b3fe1bdf7a6.js.map"
+    ],
+    "path---profile-quick-start": [
+      "path---profile-quick-start-7721c9cafd6736b96660.js",
+      "path---profile-quick-start-7721c9cafd6736b96660.js.map"
     ],
     "path---notifications-queries": [
-      "path---notifications-queries-19d77ae404ded7da833d.js",
-      "path---notifications-queries-19d77ae404ded7da833d.js.map"
+      "path---notifications-queries-b081a0ecebe8f052f7ff.js",
+      "path---notifications-queries-b081a0ecebe8f052f7ff.js.map"
     ],
     "app": [
-      "app-7d9fa382cfa188b0789d.js",
+      "app-366b64878c308a13cecb.js",
       "build-js-styles.css",
-      "app-7d9fa382cfa188b0789d.js.map",
+      "app-366b64878c308a13cecb.js.map",
       "build-js-styles.css.map"
     ],
+    "path---profile-usecases": [
+      "path---profile-usecases-9e307805f082e39b0ef5.js",
+      "path---profile-usecases-9e307805f082e39b0ef5.js.map"
+    ],
     "path---architecture-underlying-technology": [
-      "path---architecture-underlying-technology-09c859796dffa22ab6ca.js",
-      "path---architecture-underlying-technology-09c859796dffa22ab6ca.js.map"
+      "path---architecture-underlying-technology-8fc4b424d729a665e253.js",
+      "path---architecture-underlying-technology-8fc4b424d729a665e253.js.map"
     ],
     "component---src-templates-markdown-template-js": [
-      "component---src-templates-markdown-template-js-43ecab5f6659fb0a005b.js",
-      "component---src-templates-markdown-template-js-43ecab5f6659fb0a005b.js.map"
+      "component---src-templates-markdown-template-js-9902dce4950e965a1052.js",
+      "component---src-templates-markdown-template-js-9902dce4950e965a1052.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---profile-data-models": [
-      "path---profile-data-models-b29307a3b9a12f793fb4.js",
-      "path---profile-data-models-b29307a3b9a12f793fb4.js.map"
+      "path---profile-data-models-1dcd8774e7c9024c2ba3.js",
+      "path---profile-data-models-1dcd8774e7c9024c2ba3.js.map"
     ]
   }
 }
