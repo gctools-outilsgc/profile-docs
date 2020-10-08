@@ -10,7 +10,8 @@ title: "Errors (Translate)"
 </helmet>
 
 # Error Codes
-TEXT
+Here are error codes you may encounter. If you are encountering other errors please [refer to the apollo docs](https://www.apollographql.com/docs/apollo-server/data/errors/). (TRANSLATE)
+
 |Error Code |Description |
 | --------- | ---------- |
 | E1ProfileNotExist | Profil n'existe pas |
