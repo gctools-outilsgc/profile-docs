@@ -13,7 +13,7 @@ title: "Récupération des données"
 
 Les requêtes nécessitent l’authentification du client au moyen d’un jeton d’accès. Si le jeton est validé par GCcompte comme étant à jour et que le consentement est autorisé pour l’application, le système Notification en tant que service retournera les données demandées pour l’utilisateur pour lequel le jeton a été généré.
 
-Pour de plus amples renseignements sur la façon d’utiliser la fonction de requête graphQL graphl.org fournit d’excellents [tutoriels](https: //graphql.org/learn/query/).
+Pour de plus amples renseignements sur la façon d’utiliser la fonction de requête graphQL graphl.org fournit d’excellents [tutoriels](https://graphql.org/learn/query/).
 
 ### Requête qui retournerait tous les renseignements disponibles sur les notifications pour un utilisateur particulier, identifié dans un jeton d’accès
 
@@ -56,7 +56,7 @@ Les champs de critères de recherche peuvent être utilisés séparément ou enc
 
 Arguments disponibles :
 * `appID` *Concordance parfaite* (string)
-* `actionLevel` *Correspondance parfaite de `NoUserAction`, `En vedette` ou `UserActionRequired`* (enum) 
+* `actionLevel` *Correspondance parfaite de `NoUserAction`, `Featured` ou `UserActionRequired`* (enum) 
 
 
 Exemple avec tous les arguments disponibles :

@@ -13,7 +13,7 @@ title: "Récupération des données"
 
 Les requêtes n’exigent pas l’authentification du client au moyen d’un jeton d’accès, mais le type de données retournées peut être filtré. Par exemple, si le champ « adresse » exige un certain « rôle d’utilisateur » à afficher, alors si un utilisateur faisant une requête n’a pas ce rôle la valeur `null` sera retournée pour ce champ.
 
-Pour de plus amples renseignements sur la façon d’utiliser la fonction de requête de graphQL graphl.org contient d’excellents [tutoriels](https: //graphql.org/learn/query/).
+Pour de plus amples renseignements sur la façon d’utiliser la fonction de requête de graphQL graphl.org contient d’excellents [tutoriels](https://graphql.org/learn/query/).
 
 ### Requête qui retournerait toutes tous les renseignements disponibles sur les utilisateurs sans critères de recherche
 
@@ -103,7 +103,7 @@ Les champs de critères de recherche peuvent être utilisés séparément ou enc
 
 Arguments disponibles :
 
-* `partialName` *Le nom contient –sensible à la casse*
+* `partialName` *Le nom contient –sensible à la casse* (string)
 
 Exemple :
 
@@ -119,13 +119,13 @@ Exemple :
 
 Arguments disponibles :
 
-* `gcId` *concordance parfaite*
-* `name` *le nom contient – sensible à la casse*
-* `email` *concordance parfaite*
-* `mobilePhone` *le numéro de téléphone mobile contient*
-* `officePhone` *le numéro de bureau contient*
-* `titleEn` *le titre contient*
-* `titleFr` *le titre contient*
+* `gcId` *concordance parfaite* (string)
+* `name` *le nom contient – sensible à la casse* (string)
+* `email` *concordance parfaite* (string)
+* `mobilePhone` *le numéro de téléphone mobile contient* (string)
+* `officePhone` *le numéro de bureau contient* (string)
+* `titleEn` *le titre contient* (string)
+* `titleFr` *le titre contient* (string)
 
 Exemple avec tous les arguments disponibles :
 
@@ -147,12 +147,12 @@ Exemple avec tous les arguments disponibles :
 
 Arguments disponibles :
 
-* `id` *concordance parfaite*
-* `streetAddress` *l’adresse municipale contient*
-* `city` *la ville contient*
-* `province` *concordance parfaite*
-* `postalCode` *concordance parfaite*
-* `country` *concordance parfaite*
+* `id` *concordance parfaite* (int)
+* `streetAddress` *l’adresse municipale contient* (string)
+* `city` *la ville contient* (string)
+* `province` *concordance parfaite* (string)
+* `postalCode` *concordance parfaite* (string)
+* `country` *concordance parfaite* (string)
 
 Exemple avec tous les arguments disponibles :
 
@@ -173,9 +173,9 @@ Exemple avec tous les arguments disponibles :
 
 Arguments disponibles :
 
-* `id` *concordance parfaite*
-* `nameEn` *le nom en anglais contient*
-* `nameFr` *le nom français contient*
+* `id` *concordance parfaite* (int)
+* `nameEn` *le nom en anglais contient* (string)
+* `nameFr` *le nom français contient* (string)
 
 Exemple avec tous les arguments disponibles :
 
@@ -193,11 +193,11 @@ Exemple avec tous les arguments disponibles :
 
 Arguments disponibles :
 
-* `id` *concordance parfaite*
-* `nameEn` *le nom de l’organisation contient*
-* `nameFr` *le nom de l’organisation contient*
-* `acronymEn` *concordance parfaite*
-* `acronymFr` *concordance parfaite*
+* `id` *concordance parfaite* (int)
+* `nameEn` *le nom de l’organisation contient* (string)
+* `nameFr` *le nom de l’organisation contient* (string)
+* `acronymEn` *concordance parfaite* (string)
+* `acronymFr` *concordance parfaite* (string)
 
 ```javascript
     query{
@@ -215,7 +215,7 @@ Arguments disponibles :
 
 Arguments disponibles :
 
-* `id` *concordance parfaite*
+* `id` *concordance parfaite* (int)
 * `gcIDApprover` *correspondance parfaite* (gcID de l’objet de profil)
 * `gcIDSubmitter` *correspondance parfaite* (gcID de l’objet de profil)
 * `status` *ENUM* (enum `en attente`, `approuvée`, `refusée`)
@@ -243,7 +243,7 @@ Exemple de l’utilisation de tous les arguments disponibles
 
 Il n’est pas pratique de récupérer une énorme quantité de données avec une seule demande et cette action peut abîmer votre application. La pagination existe pour résoudre ce problème, en permettant au client de préciser le nombre d’éléments qu’il veut.
 
-La méthode simple définie dans la documentation de pagination GraphQL consiste à découper les résultats en utilisant deux paramètres : `d’abord`, qui renvoie les premiers éléments n et ` sauter`, qui saute les premiers éléments n.
+La méthode simple définie dans la documentation de pagination GraphQL consiste à découper les résultats en utilisant deux paramètres : `first`, qui renvoie les premiers éléments n et `skip`, qui saute les premiers éléments n.
 
 Ces deux paramètres de pagination ont été mis en œuvre pour toutes les fonctions de requête de recherche.
 

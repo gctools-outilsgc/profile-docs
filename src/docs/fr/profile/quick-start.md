@@ -2,7 +2,7 @@
 path: "/profile/quick-start"
 subnav: "1/Profile/Profil/1"
 lang: "fr"
-title: "Quick Start (Translate)"
+title: "Démarrage rapide"
 ---
 
 <helmet>
@@ -35,8 +35,8 @@ Visitez ce lien pour obtenir une liste des clients GQL que vous pouvez utiliser 
 
 #### ReactJS
  
-Le [Répertoire](https: //profile.gccollab.ca/) utilise [React Apollo Client](https://www.apollographql.com/docs/react/)
+Le [Répertoire](https://profile.gccollab.ca/) utilise [React Apollo Client](https://www.apollographql.com/docs/react/)
 
 #### PHP
 
-GCcollab utilise [php graphql-client](https://github.com/euautomation/graphql-client) pour interroger et muter des données dans PaaS.
+GCcollab utilise [php graphql-client](https://github.com/euautomation/graphql-client) pour récupérer et muter des données dans PaaS.

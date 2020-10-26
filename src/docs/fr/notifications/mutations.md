@@ -11,7 +11,7 @@ title: "Modifications des données"
 
 ## Mutations
 
-Les mutations nécessitent une authentification sous la forme de jeton d’accès valide au GCcompte de l’utilisateur. Le jeton d’accès doit être saisi dans l’en-tête de la demande du formulaire `Autorisation : Porteur {jeton d’accès}`.
+Les mutations nécessitent une authentification sous la forme de jeton d’accès valide au GCcompte de l’utilisateur. Le jeton d’accès doit être saisi dans l’en-tête de la demande du formulaire `Authorization: Bearer {jeton d’accès}`.
 
 ### mutations de notification
 
@@ -21,7 +21,7 @@ Arguments disponibles pour envoyer une mutation :
 
 * `appID` *ID de l’application tel qu’il est indiqué dans le GCcompte* (string)
 * `actionLink` *URL vers la page où la notification peut être traitée* (string)
-* `actionLevel` *liste ENUM de `NoUserAction`, `En vedette` ou `UserActionRequired`* (enum)
+* `actionLevel` *liste ENUM de `NoUserAction`, `Featured` ou `UserActionRequired`* (enum)
 * `email` *objet de notification par courriel* (email notification object)
 * `online` *objet de notification en ligne* (online notification object)
 * `whoDunIt` *objet qui définit l’auteur ou l’action qui déclenché l’événement* (whoDunIt object)

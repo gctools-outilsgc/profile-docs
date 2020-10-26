@@ -2,7 +2,7 @@
 path: "/notifications/data-models"
 subnav: "1/Notifications/Notifications/2"
 lang: "fr"
-title: "modèles de données"
+title: "Modèles de données"
 ---
 
 <helmet>
@@ -19,7 +19,7 @@ title: "modèles de données"
 * `gcID` *identificateur unique de l’utilisateur qui reçoit la notification* (string)
 * `appID` *ID de l’application tel qu’il est indiqué dans le compte GC* (string)
 * `actionLink` *URL vers la page où la notification peut être traitée* (string)
-* `actionLevel` *liste ENUM de `aucune action utilisateur`, `en vedette` ou `action utilisateur requise`* (enum)
+* `actionLevel` *liste ENUM de `NoUserAction`, `Featured` ou `UserActionRequired`* (enum)
 * `email` *objet de notification par courriel* (objet de notification par courriel)
 * `online` *objet de notification en ligne* (objet de notification en ligne)
 * `whoDunIt` *objet qui définit qui ou ce qui a généré l’événement* (whoDunIt object)
@@ -38,7 +38,7 @@ title: "modèles de données"
 * `to` *adresse de courriel du destinataire* (string)
 * `subject` *Ligne de l’objet du courriel* (string)
 * `body` *corps du courriel qui peut être un texte pur ou en HTML* (string)
-* `status` *Liste Enum qui peut être `envoyée` ou `mise en attente`* (enum)
+* `status` *Liste Enum qui peut être `Sent` ou `Queued`* (enum)
 * `sendError` *message d’erreur si le courriel n’a pas pu être envoyé* (string)
 * `html` *booléen qui identifie si le corps a HTML* (boolean)
 

@@ -11,7 +11,7 @@ title: "Modifications des données"
 
 ## Mutations
 
-Les mutations nécessitent une authentification sous la forme d’un jeton d’accès valide de l’utilisateur GCcompte. Le jeton d’accès doit être inscrit dans l’en-tête de la demande sous la forme `Autorisation : Porteur {jeton d’accès}`.
+Les mutations nécessitent une authentification sous la forme d’un jeton d’accès valide de l’utilisateur GCcompte. Le jeton d’accès doit être inscrit dans l’en-tête de la demande sous la forme `Authorization: Bearer {jeton d’accès}`.
 
 ### Mutations de profil
 
@@ -151,8 +151,8 @@ Arguments disponibles pour envoyer une mutation :
 
 * `id` *identificateur unique de l’approbation à modifier* (int)
 * `data` *objet qui contient les modifications à appliquer*
-  * `status` *ENUM « en attente », « approuvée » ou « refusée » (enum)
-  * `deniedComment` *raison pour laquelle le statut est « refusée » (string)
+  * `status` *ENUM `Pending`, `Approved`, ou `Denied` (enum)
+  * `deniedComment` *raison pour laquelle le statut est `Denied` (string)
 
 Exemple de mutation pour modifier une approbation :
 

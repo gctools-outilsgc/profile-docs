@@ -2,7 +2,7 @@
 path: "/profile/logic"
 subnav: "1/Profile/Profil/6"
 lang: "fr"
-title: "logique d'entreprise"
+title: "Logique d'entreprise"
 ---
 
 <helmet>

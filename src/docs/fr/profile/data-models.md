@@ -2,11 +2,11 @@
 path: "/profile/data-models"
 subnav: "1/Profile/Profil/2"
 lang: "fr"
-title: "modèles de données"
+title: "Modèles de données"
 ---
 
 <helmet>
-<title> Profile - modèles de données </title>
+<title> Profile - Modèles de données </title>
 </helmet>
 
 ## Modèles de données d’objet
@@ -58,7 +58,7 @@ title: "modèles de données"
 * `acronymEn` *Sigle en anglais de l’organisation* (string)
 * `acronymFr` *Sigle en français de l’organisation* (string)
 * `teams` *tableau d’équipes associées à cette organisation* (team array)
-* `orgType` *type d’organisation (« fédérale », « provinciale », « municipale », « université », « collège », « autre »)* (enum)
+* `orgType` *type d’organisation (`Federal`, `Provincial`, `Municipal`, `University`, `College`, `Other`)* (enum)
 
 ### Approbation
 
@@ -71,8 +71,8 @@ title: "modèles de données"
 * `createdOn` *horodatage en temps Unix de la création de la date d’approbation* (string)
 * `actionedOn` *horodatage de la dernière modification de l’approbation en temps Unix* (string)
 * `deniedComment` *message à l’expéditeur si la demande est refusée par l’approbateur* (string)
-* `status` *ENUM qui peut être soit « En attente », « Approuvé » ou « Refusé » pour décrire l’état de l’approbation* (enum)
-* `changeType` *ENUM qui peut être soit « adhésion » ou « information » pour décrire la nature du changement demandé* (enum)
+* `status` *ENUM qui peut être soit `Pending`, `Approved`, ou `Denied` pour décrire l’état de l’approbation* (enum)
+* `changeType` *ENUM qui peut être soit `Membership` ou `Informational` pour décrire la nature du changement demandé* (enum)
 
 #### Objet de changement demandé
 

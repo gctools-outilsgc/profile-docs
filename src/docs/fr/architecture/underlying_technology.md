@@ -35,7 +35,7 @@ Prisma est un excellent outil pour construire des serveurs GraphQL. Le client Pr
 
 ### GraphQL
 
-GraphQL est un langage de requête de couche d’application. GraphQL est conçu pour interpréter une chaîne à partir d’un serveur ou d’un client et retourner les données dans un format compréhensible, stable et prévisible. Comme le dit le `site Web officiel de GraphQL <https: //graphql.org/>`_, [Traduction] « Décrivez vos données, demandez ce que vous voulez et obtenez des résultats prévisibles. »
+GraphQL est un langage de requête de couche d’application. GraphQL est conçu pour interpréter une chaîne à partir d’un serveur ou d’un client et retourner les données dans un format compréhensible, stable et prévisible. Comme le dit le `site Web officiel de GraphQL <https: //graphql.org/>`_, « Décrivez vos données, demandez ce que vous voulez et obtenez des résultats prévisibles. »
 
 #### Avantages de GraphQL
 

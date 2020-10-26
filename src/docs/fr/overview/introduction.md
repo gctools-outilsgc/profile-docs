@@ -18,7 +18,7 @@ Un principe clé de l’espace de travail numérique ouvert et accessible est d�
 Les microservices, également appelés architecture de microservices, sont un style architectural qui structure une application en tant qu’un groupe de services qui est :
 
 * Très durable et testable
-Jumelé de façon souple
+* Jumelé de façon souple
 * Déployable de façon autonome
 * Organisé selon les capacités opérationnelles
 * Appartenant à une petite équipe
