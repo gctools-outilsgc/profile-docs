@@ -25,14 +25,14 @@ Arguments disponibles pour envoyer une mutation :
   * `titleFr` *titre du poste en français de l’utilisateur* (string)
   * `mobilePhone` *numéro de téléphone cellulaire* (string)
   * `officePhone` *Numéro de téléphone au bureau* (string)
-  * `address` *adresse de travail de l’utilisateur* (address object)
+  * `address` *adresse de travail de l’utilisateur* (objet address)
     * `streetAddress` (string)
     * `city` (string)
     * `province` (string)
     * `postalCode` (string)
     * `country` (string)
-  * `team` *objet d’équipe de l’équipe associée* (team object)
-    * `id` *identificateur unique d’une équipe* (string)(string)
+  * `team` *objet d’équipe de l’équipe associée* (objet team)
+    * `id` *identificateur unique d’une équipe* (string)
 
 Exemple de mutation utilisant tous les arguments disponibles :
 
@@ -72,8 +72,8 @@ Arguments disponibles pour envoyer une mutation :
 * `nameFr` *Nom en français de l’équipe* (string)
 * `descriptionEn` *Description en anglais de l’équipe* (string)
 * `descriptionFr` *Description en français de l’équipe* (string)
-* `organization` *identificateur unique d’objet d’organisation* (organization object)
-* `owner` *utilisateur unique du propriétaire de l’équipe. Peut être identifié par courriel ou par gcID* (profile object)
+* `organization` *identificateur unique d’objet d’organisation* (objet organization)
+* `owner` *utilisateur unique du propriétaire de l’équipe. Peut être identifié par courriel ou par gcID* (objet profile)
 
 Exemple de mutation pour créer un OrgTier :
 
@@ -105,8 +105,8 @@ Arguments disponibles pour envoyer une mutation :
   * `nameFr` *Nom en français de l’équipe* (string)
   * `descriptionEn` *Description en anglais de l’équipe* (string)
   * `descriptionFr` *Description en français de l’équipe* (string)
-  * `organization` *identificateur unique d’objet d’organisation* (organization object)
-  * `owner` *utilisateur unique du propriétaire de l’équipe. Peut être identifié par courriel ou par gcID* (profile object)
+  * `organization` *identificateur unique d’objet d’organisation* (objet organization)
+  * `owner` *utilisateur unique du propriétaire de l’équipe. Peut être identifié par courriel ou par gcID* (objet profile)
 
 Exemple de mutation pour modifier un OrgTier :
 

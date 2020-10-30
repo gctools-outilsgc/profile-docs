@@ -216,10 +216,10 @@ Arguments disponibles :
 Arguments disponibles :
 
 * `id` *concordance parfaite* (int)
-* `gcIDApprover` *correspondance parfaite* (gcID de l’objet de profil)
-* `gcIDSubmitter` *correspondance parfaite* (gcID de l’objet de profil)
-* `status` *ENUM* (enum `en attente`, `approuvée`, `refusée`)
-* `changeType` *ENUM* (enum informationnel ou de membre)
+* `gcIDApprover` *correspondance parfaite* (gcID de l’objet de profile)
+* `gcIDSubmitter` *correspondance parfaite* (gcID de l’objet de profile)
+* `status` *ENUM* (enum `Pending`, `Approved`, `Denied`)
+* `changeType` *ENUM* (enum `Informational` ou `Membership`)
 
 Exemple de l’utilisation de tous les arguments disponibles
 

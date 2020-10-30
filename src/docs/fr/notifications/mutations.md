@@ -22,9 +22,9 @@ Arguments disponibles pour envoyer une mutation :
 * `appID` *ID de l’application tel qu’il est indiqué dans le GCcompte* (string)
 * `actionLink` *URL vers la page où la notification peut être traitée* (string)
 * `actionLevel` *liste ENUM de `NoUserAction`, `Featured` ou `UserActionRequired`* (enum)
-* `email` *objet de notification par courriel* (email notification object)
-* `online` *objet de notification en ligne* (online notification object)
-* `whoDunIt` *objet qui définit l’auteur ou l’action qui déclenché l’événement* (whoDunIt object)
+* `email` *objet de notification par courriel* (objet de notification email)
+* `online` *objet de notification en ligne* (objet de notification online)
+* `whoDunIt` *objet qui définit l’auteur ou l’action qui déclenché l’événement* (object whoDunIt)
 
 Exemple : Une mutation pour créer une notification avec un composant de notification en ligne et par courriel
 

@@ -20,9 +20,9 @@ title: "Modèles de données"
 * `appID` *ID de l’application tel qu’il est indiqué dans le compte GC* (string)
 * `actionLink` *URL vers la page où la notification peut être traitée* (string)
 * `actionLevel` *liste ENUM de `NoUserAction`, `Featured` ou `UserActionRequired`* (enum)
-* `email` *objet de notification par courriel* (objet de notification par courriel)
-* `online` *objet de notification en ligne* (objet de notification en ligne)
-* `whoDunIt` *objet qui définit qui ou ce qui a généré l’événement* (whoDunIt object)
+* `email` *objet de notification par courriel* (objet de notification email)
+* `online` *objet de notification en ligne* (objet de notification online)
+* `whoDunIt` *objet qui définit qui ou ce qui a généré l’événement* (objet whoDunIt)
 
 ### Objet en ligne
 

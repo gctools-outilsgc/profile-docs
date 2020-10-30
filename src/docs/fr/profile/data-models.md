@@ -21,11 +21,11 @@ title: "Modèles de données"
 * `titleFr` *titre du poste en français de l’utilisateur* (string)
 * `mobilePhone` *numéro de téléphone cellulaire* (string)
 * `officePhone` *Numéro de téléphone au bureau* (string)
-* `address` *adresse de travail de l’utilisateur* (address object)
-* `team` *objet d’équipe auquel l’utilisateur est associé. Cet objet est utilisé pour trouver le superviseur et l’organisation actuels de l’utilisateur* (team object)
-* `ownerOfTeams` *tableau des objets d’équipe dont cet utilisateur est propriétaire. Cet objet est utilisé pour trouver les employés de l’utilisateur* (team object array)
-* `outstandingApprovals` *tableau des objets d’approbation nécessitant l’approbation ou le rejet de l’utilisateur* (approval object array)
-* `submittedApprovals` *tableau des objets d’approbation soumis par l’utilisateur* (approval object array)
+* `address` *adresse de travail de l’utilisateur* (objet address)
+* `team` *objet d’équipe auquel l’utilisateur est associé. Cet objet est utilisé pour trouver le superviseur et l’organisation actuels de l’utilisateur* (objet team)
+* `ownerOfTeams` *tableau des objets d’équipe dont cet utilisateur est propriétaire. Cet objet est utilisé pour trouver les employés de l’utilisateur* (tableau d'objet team)
+* `outstandingApprovals` *tableau des objets d’approbation nécessitant l’approbation ou le rejet de l’utilisateur* (tableau d'objet approval)
+* `submittedApprovals` *tableau des objets d’approbation soumis par l’utilisateur* (tableau d'objet approval)
 * `isAdmin` - *indicateur pour vérifier si l’utilisateur est un administrateur* (boolean)
 
 ### Adresse
@@ -46,9 +46,9 @@ title: "Modèles de données"
 * `descriptionFr` *Description en français de l’équipe* (string)
 * `colour` *couleur personnalisée pour l’équipe* (string)
 * `avatar` *avatar facultatif pour l’équipe* (string)
-* `organization` *objet organisation de niveau supérieur* (organization object)
-* `owner` *objet de profil de l’utilisateur répertorié comme propriétaire de cette équipe* (user object)
-* `members` *tableau d’objets utilisateur associés à ce niveau d’organisation* (user object array)
+* `organization` *objet organisation de niveau supérieur* (objet organization)
+* `owner` *objet de profil de l’utilisateur répertorié comme propriétaire de cette équipe* (objet user)
+* `members` *tableau d’objets utilisateur associés à ce niveau d’organisation* (tableau objet user)
 
 ### Organisation
 
@@ -57,7 +57,7 @@ title: "Modèles de données"
 * `nameFr` *Nom en français de l’organisation* (string)
 * `acronymEn` *Sigle en anglais de l’organisation* (string)
 * `acronymFr` *Sigle en français de l’organisation* (string)
-* `teams` *tableau d’équipes associées à cette organisation* (team array)
+* `teams` *tableau d’équipes associées à cette organisation* (tableau team)
 * `orgType` *type d’organisation (`Federal`, `Provincial`, `Municipal`, `University`, `College`, `Other`)* (enum)
 
 ### Approbation
@@ -65,9 +65,9 @@ title: "Modèles de données"
 ### Objet d’approbation
 
 * `id` *identificateur unique d’objet d’approbation* (int)
-* `gcIDApprover` *objet de profil de l’utilisateur répertorié comme étant en mesure d’approuver ou de refuser cette demande* (profile object)
-* `gcIDSubmitter` *objet de profil de l’utilisateur qui a soumis la demande d’approbation* (profile object)
-* `requestedChange` *objet de changement demandé qui contient les changements demandés pour approbation* (requestedChange object)
+* `gcIDApprover` *objet de profil de l’utilisateur répertorié comme étant en mesure d’approuver ou de refuser cette demande* (objet profile)
+* `gcIDSubmitter` *objet de profil de l’utilisateur qui a soumis la demande d’approbation* (objet profile)
+* `requestedChange` *objet de changement demandé qui contient les changements demandés pour approbation* (objet requestedChange)
 * `createdOn` *horodatage en temps Unix de la création de la date d’approbation* (string)
 * `actionedOn` *horodatage de la dernière modification de l’approbation en temps Unix* (string)
 * `deniedComment` *message à l’expéditeur si la demande est refusée par l’approbateur* (string)
@@ -84,5 +84,5 @@ title: "Modèles de données"
 * `titleFr` *titre du poste en français de l’utilisateur* (string)
 * `mobilePhone` *numéro de téléphone cellulaire* (string)
 * `officePhone` *Numéro de téléphone au bureau* (string)
-* `address` *adresse de travail de l’utilisateur* (address object)
-* `team` *objet équipe à laquelle l’utilisateur souhaite être associé* (team object)
+* `address` *adresse de travail de l’utilisateur* (objet address)
+* `team` *objet équipe à laquelle l’utilisateur souhaite être associé* (objet team)
