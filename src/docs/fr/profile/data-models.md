@@ -26,7 +26,6 @@ title: "Modèles de données"
 * `ownerOfTeams` *tableau des objets d’équipe dont cet utilisateur est propriétaire. Cet objet est utilisé pour trouver les employés de l’utilisateur* (tableau d'objet team)
 * `outstandingApprovals` *tableau des objets d’approbation nécessitant l’approbation ou le rejet de l’utilisateur* (tableau d'objet approval)
 * `submittedApprovals` *tableau des objets d’approbation soumis par l’utilisateur* (tableau d'objet approval)
-* `isAdmin` - *indicateur pour vérifier si l’utilisateur est un administrateur* (boolean)
 * `isAdmin` - *enum qui peut être soit `User` or `Admin` pour vérifier si l’utilisateur est un administrateur ou pas* (enum)
 
 ### Adresse
