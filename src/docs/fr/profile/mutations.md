@@ -11,7 +11,7 @@ title: "Modifications des données"
 
 ## Mutations
 
-Les mutations nécessitent une authentification sous la forme d’un jeton d’accès valide de l’utilisateur GCcompte. Le jeton d’accès doit être inscrit dans l’en-tête de la demande sous la forme `Authorization: Bearer {jeton d’accès}`.
+Les mutations nécessitent une authentification sous la forme d’un jeton d’accès valide de l’utilisateur GCcompte. Le jeton d’accès doit être inscrit dans l’en-tête de la demande sous la forme `Authorization: Bearer {jeton d’accès}`. Si le `role` de l'utilisateur est `Admin`, il aura la possibilité de modifier le profil des autres utilisateurs.
 
 ### Mutations de profil
 

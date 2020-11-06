@@ -26,7 +26,7 @@ title: "Data Models"
 * `ownerOfTeams` *array of team objects that have this user as its owner. This object is used to find the user's employees* (team object array)
 * `outstandingApprovals` *array of approval objects that require the user's approval or rejection* (approval object array)
 * `submittedApprovals` *array of approval objects that have been submitted by the user* (approval object array)
-* `isAdmin` - *flag to check if user is an admin* (boolean)
+* `role` - *enum that can be either `User` or `Admin` to check if user is an admin or not* (enum)
 
 ### Address
 

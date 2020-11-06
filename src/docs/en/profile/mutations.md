@@ -11,7 +11,7 @@ title: "Modifying Data"
 
 ## Mutations
 
-Mutations require authentication in the form of the user's valid GCaccount access token.  The access token must be passed in the request header in the form `Authorization: Bearer {access token}`.
+Mutations require authentication in the form of the user's valid GCaccount access token.  The access token must be passed in the request header in the form `Authorization: Bearer {access token}`. If user `role` is set to `Admin`, the user will be allowed to edit profile of other user.
 
 ### Profile Mutations
 
