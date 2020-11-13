@@ -33,6 +33,8 @@ const frTranslation = {
   LearnMore: 'Apprendre plus',
   Components: 'Composantes',
   'Overview': 'Aperçu',
+  'Profile as a Service': 'Profil en tant que service',
+  'Notifications as a Service': 'Notification en tant que service',
   Identity: 'Identité',
   Content: 'Contenu',
   Data: 'Données',

@@ -2,17 +2,18 @@
 path: "/profile/errors"
 subnav: "1/Profile/Profil/8"
 lang: "fr"
-title: "Errors (Translate)"
+title: "Erreurs"
 ---
 
 <helmet>
-<title> Profil - Errors (Translate)</title>
+<title> Profil - Erreur</title>
 </helmet>
 
-# Error Codes
-Here are error codes you may encounter. If you are encountering other errors please [refer to the apollo docs](https://www.apollographql.com/docs/apollo-server/data/errors/). (TRANSLATE)
+# Codes d’erreur
+Voici les codes des erreurs qui pourraient survenir. Si d’autres erreurs surviennent,[veuillez consulter les
+documents d’Apollo](https://www.apollographql.com/docs/apollo-server/data/errors/).
 
-|Error Code |Description |
+|Codes d’erreur |Description |
 | --------- | ---------- |
 | E1ProfileNotExist | Profil n'existe pas |
 | E2TeamNotExist | Équipe n'existe pas |
