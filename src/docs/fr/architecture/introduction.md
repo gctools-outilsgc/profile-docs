@@ -17,4 +17,4 @@ Le concept directeur de cette architecture est que toute application pourrait fa
 
 L’image ci-dessous a été créée dès le début de la construction de cette architecture, mais elle illustre tout de même l’esprit de ce qui est réalisé à l’aide de cette solution. 
 
-![OADW Platform Idea](../../../img/architecture/Solution-architecture.png)
+![OADW Platform Idea](../../../img/architecture/Solution-architecture_fr.png)
