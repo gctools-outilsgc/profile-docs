@@ -151,9 +151,9 @@ export const pageQuery = graphql`
           }
       }
     }
-    identity:allMarkdownRemark(
+    account:allMarkdownRemark(
       filter: {
-        frontmatter: {path: {regex: "/\/identity\//"}}
+        frontmatter: {path: {regex: "/\/account\//"}}
       },
       sort:{
         fields:[frontmatter___subnav]

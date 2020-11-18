@@ -34,6 +34,7 @@ const Header = ({ path }) => {
     }
     if (path.length >= 8) {
       if (path.substr(0, 8) === '/profile') path = '/profile';
+      if (path.substr(0, 9) === '/account') path = '/account';
     }
   }
 
@@ -88,6 +89,11 @@ const Header = ({ path }) => {
                   <NavItem>
                     <Link to="/notifications/introduction" className={(path == '/notifications') ? 'nav-link active-header-tab' : 'nav-link'}>
                       {t('Notifications as a Service')}
+                    </Link>
+                  </NavItem>
+                  <NavItem>
+                    <Link to="/account/introduction" className={(path == '/account') ? 'nav-link active-header-tab' : 'nav-link'}>
+                      {t('GCaccount')}
                     </Link>
                   </NavItem>
                 </Nav>
