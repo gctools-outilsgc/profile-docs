@@ -3,7 +3,7 @@ const enTranslation = {
   GovernmentofCanada: 'Government of Canada',
   QuantumDocumentation: 'Quantum Documentation',
   Tagline: 'Excellent applications need awesome architectures. This is Quantum.',
-  TopIntro: 'Quantum is a decentralized microservice architecutre created by the Digital Enablement Division within the Government of Canada for our digital products. Everything you need to create fast, responsive, and secure digital products can be found in our solution design.  Quantum will always be free, open, collaborative and evolving.',
+  TopIntro: 'Quantum is a decentralized microservice architecture created by the Digital Enablement Division within the Government of Canada for our digital products. Everything you need to create fast, responsive, and secure digital products can be found in our solution design.  Quantum will always be free, open, collaborative and evolving.',
   MainCTA: 'Get started',
   GithubLink: 'Find us on GitHub',
   AboutQuantum: 'About Quantum',
