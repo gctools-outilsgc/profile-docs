@@ -15,7 +15,7 @@ Maybe an intro paragraph for the features page.
 
 ## Account management
 
-You can manage different aspects of your account here.
+You can manage different aspects of your account here. Like changing email and password.
 
 ### Active sessions
 

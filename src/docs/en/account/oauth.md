@@ -13,10 +13,11 @@ title: "OAuth"
 
 We talk about how we and users can use the OAuth provider
 
-## Urls
+## Endpoints
 
-List urls and what they do
+| Endpoints |Description |
+| --------- | ---------- |
+| `/oauth/v2/authorize` | End-user can authorize an application for use |
+| `/oauth/v2/token` | Token request URL |
+| `/oauth/v2/revoke_token` | Revoke issued tokens |
 
-## Helpful endpoint
-
-List the user API to get user information
